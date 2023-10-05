@@ -1,6 +1,6 @@
 library(glmnet)
 library(xlsx)
-#Import the train data with 54 variables, and this part of original data are available from the corresponding author on reasonable request.
+#Import the train data with 55 variables, and this part of original data are available from the corresponding author on reasonable request.
 data<-read.xlsx("D:/whole_sorted_train_data.xlsx",1)
 
 #LASSO lambda selection and the corresponding mean AUC using 10-fold cross-validation:
